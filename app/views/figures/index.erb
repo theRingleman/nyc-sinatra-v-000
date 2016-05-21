@@ -2,6 +2,6 @@
 
 <ul>
   <%@figures.each do |figure|%>
-    <li><%=figure.name%></li>
+    <li><a href="/figures/<%=figure.id%>"><%=figure.name%></a></li>
   <%end%>
 </ul>
